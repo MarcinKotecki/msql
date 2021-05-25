@@ -1,0 +1,9 @@
+package com.koteckim.ztm.repository;
+
+import com.koteckim.ztm.model.Course;
+import com.koteckim.ztm.model.Route;
+import org.springframework.data.repository.CrudRepository;
+
+public interface CourseRepository extends CrudRepository<Course, Integer> {
+
+}
